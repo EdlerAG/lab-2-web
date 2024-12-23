@@ -1,0 +1,56 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Шапка */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+header ul li a:hover {
+    background-color: #555;
+}
+
+/* Основний контент */
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Підвал */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
