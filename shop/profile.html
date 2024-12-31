@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Профіль - EcoStore</title>
+    <meta name="description" content="Перегляньте та оновіть ваш профіль в EcoStore. Управління особистою інформацією та налаштуваннями.">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="../images/main/ecoLogo.png" alt="EcoStore - Логотип" width="150">
+        <h1>EcoStore</h1>
+        <p>Магазин екотоварів для здорового життя та природи</p>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="products.html">Товари</a></li>
+            <li><a href="cart.html">Кошик</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contacts.html">Контакти</a></li>
+            <li><a href="profile.html">Профіль</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Мій Профіль</h2>
+        <form action="updateProfile.html" method="post">
+            <fieldset>
+                <legend>Особиста Інформація</legend>
+                <label for="username">Ім'я:</label>
+                <input type="text" id="username" name="username" value="Іван Іванов" required><br><br>
+
+                <label for="email">Електронна Пошта:</label>
+                <input type="email" id="email" name="email" value="ivan@example.com" required><br><br>
+
+                <label for="phone">Телефон:</label>
+                <input type="tel" id="phone" name="phone" value="+38 (012) 345 67 89" required><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Зміна Паролю</legend>
+                <label for="password">Новий Пароль:</label>
+                <input type="password" id="password" name="password" placeholder="Введіть новий пароль"><br><br>
+            </fieldset>
+
+            <button type="submit">Зберегти Зміни</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <section>
+        <h2>Наші контакти</h2>
+        <p>Адреса: <a href="https://maps.app.goo.gl/yourStoreLocation">вул. Еко, 25, Київ</a></p>
+        <p>Телефон: <a href="tel:+380123456789">+38 (012) 345 67 89</a></p>
+        <p>Час роботи: Пн-Пт: 09:00 - 19:00</p>
+    </section>
+    <p>&copy; 2024 EcoStore. Всі права захищені.</p>
+</footer>
+</body>
+</html>
